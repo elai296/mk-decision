@@ -1,13 +1,14 @@
-import React, {useState, useEffect} from 'react';
-import Form from './components/Form';
-
+import { Box, Grid } from '@material-ui/core';
+import React from 'react';
+import ContactUs from './components/ContactUs'
 
 
 function App() {
-  const [email, getEmail] = useState("");
    
   return (
-      <Form />
+      <Grid>
+          <ContactUs />
+      </Grid>
   );
 }
 
